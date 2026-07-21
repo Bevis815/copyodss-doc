@@ -16,7 +16,7 @@ CopyOdds 使用 Polygon 网络上的稳定币作为跟单交易本金；平台 G
 |------|------|
 | **USDC.e** | 推荐，到账通常更快 |
 | **USDC**（原生） | 支持，可能多等几分钟 |
-| **USDT0**（PoS） | 交易所提 Polygon「USDT」多数是这个；经官方 Bridge，可能略有损耗 |
+| **USDT0**（PoS） | 交易所提 Polygon「USDT」多数是这个；钱包常显示「USDT (PoS) Tether USD」；经官方 Bridge，可能略有损耗 |
 | **Wormhole Bridged USDT** | 同样支持；经 Bridge，可能多等几分钟 |
 
 你 **不需要** 自己兑换或桥接，平台会自动入账。
