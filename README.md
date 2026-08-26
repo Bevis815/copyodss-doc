@@ -33,7 +33,7 @@ CopyOdds 是基于 [Polymarket](https://polymarket.com) 的**聪明钱分析 + �
 
 ## 文档说明
 
-- 左侧目录按产品模块划分，建议按 **Getting Started → Wallet → Smart Money → Copy Trading** 阅读。
+- 左侧目录按产品模块划分，建议按 **入门指南 → 钱包 → 聪明钱 → 跟单** 阅读。
 - 本文档仅作产品操作说明，**不构成投资建议**。
 
 ## 联系支持
