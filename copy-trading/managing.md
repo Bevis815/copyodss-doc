@@ -1,4 +1,4 @@
-# Managing Copy Traders
+# 管理跟单
 
 在 **My copies（我的跟单）** → `/copy-rules` 管理全部跟单规则。
 

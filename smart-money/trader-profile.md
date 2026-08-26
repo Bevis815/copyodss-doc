@@ -1,4 +1,4 @@
-# Trader Profile
+# 交易员详情
 
 交易员详情页展示单个钱包的画像：评分、资金与表现、曲线、持仓、成交，以及跟单入口。
 
@@ -32,7 +32,7 @@
 3. 在向导中设置金额 / 比例、滑点与高级选项
 4. 保存后到 **My copies** 确认规则状态为 Following
 
-详见 [How to Follow a Trader](../copy-trading/how-to-follow.md)。
+详见 [如何跟单交易员](../copy-trading/how-to-follow.md)。
 
 ***
 

@@ -1,4 +1,4 @@
-# Quick Start
+# 快速开始
 
 从打开 App 到第一条跟单规则，按下面做即可。官方地址请使用 **copyodds.io / app.copyodds.io**。
 
@@ -32,7 +32,7 @@
 
 ![充值页](../.gitbook/assets/usdc1_doc.png)
 
-详见 [Deposit](../wallet/deposit.md)、[Supported Networks](../wallet/supported-networks.md)。
+详见 [充值](../wallet/deposit.md)、[支持的网络](../wallet/supported-networks.md)。
 
 ***
 
@@ -45,7 +45,7 @@
 
 ![Gas 商城](../.gitbook/assets/store_doc.png)
 
-费率简述：每笔跟单成交按名义金额约 **0.5%** 扣 Gas；**1 USDC ≈ 100 Gas**。详见 [GAS](../wallet/gas.md)。
+费率简述：每笔跟单成交按名义金额约 **0.5%** 扣 Gas；**1 USDC ≈ 100 Gas**。详见 [平台 Gas](../wallet/gas.md)。
 
 ***
 

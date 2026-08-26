@@ -1,4 +1,4 @@
-# How to Choose a Trader
+# 如何选择交易员
 
 没有「必赚」交易员。选人时建议把**可跟性、风险、活跃度、资金规模**放在「历史赚了多少」前面。
 
@@ -57,4 +57,4 @@
 - 你的交易记录里大量滑点失败 / 长期跳过
 - 风格与你的资金规模不匹配（单笔过大或过碎）
 
-选好人之后，具体操作见 [How to Follow a Trader](../copy-trading/how-to-follow.md)。
+选好人之后，具体操作见 [如何跟单交易员](../copy-trading/how-to-follow.md)。

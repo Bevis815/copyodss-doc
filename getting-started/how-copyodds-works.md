@@ -1,4 +1,4 @@
-# How CopyOdds Works
+# CopyOdds 如何运作
 
 从「交易员成交」到「你的账户尝试跟单」，整条链路可以概括为：
 
@@ -57,8 +57,8 @@ Gas 为 0 时：**无法新开 / 恢复跟单**；已有规则通常仍保持运
 - **提现**：仅 **Polygon (PoS) USDC**
 - 两条充值网络的**地址不同**，切勿混用
 
-详见 [Supported Networks](../wallet/supported-networks.md)。
+详见 [支持的网络](../wallet/supported-networks.md)。
 
 ## 6. 安全模型简述
 
-CopyOdds 使用**托管交易账户**：一人一钱包、私钥隔离；提现需 **Authenticator（TOTP）** 二次验证。详见 [Security](../security/wallet-security.md)。
+CopyOdds 使用**托管交易账户**：一人一钱包、私钥隔离；提现需 **Authenticator（TOTP）** 二次验证。详见 [安全](../security/wallet-security.md)。

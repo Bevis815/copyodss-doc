@@ -1,4 +1,4 @@
-# Withdraw
+# 提现
 
 将交易账户中可自由支配的 **USDC** 提到外部钱包。入口：**Wallets → Withdraw** → `/wallets/withdraw`。
 
@@ -49,7 +49,7 @@
 
 Passkey、邮箱验证码仅用于登录等场景，**不能**用于提现确认。
 
-详见 [Withdrawal Security](../security/withdrawal-security.md)、[2FA](../security/2fa.md)。
+详见 [提现安全](../security/withdrawal-security.md)、[双重验证（2FA）](../security/2fa.md)。
 
 ***
 

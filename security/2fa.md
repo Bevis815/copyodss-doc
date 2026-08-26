@@ -1,4 +1,4 @@
-# 2FA
+# 双重验证（2FA）
 
 CopyOdds 登录默认是**邮箱验证码**（无传统密码）。建议开启 Authenticator 与 Passkey，分别加强提现与登录安全。
 

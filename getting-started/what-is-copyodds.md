@@ -1,4 +1,4 @@
-# What is CopyOdds?
+# 什么是 CopyOdds？
 
 CopyOdds 帮你在 Polymarket 上**发现聪明钱交易员，并自动跟单**。
 
@@ -28,6 +28,6 @@ CopyOdds 帮你在 Polymarket 上**发现聪明钱交易员，并自动跟单**�
 
 ## 下一步
 
-- 不了解预测市场？先读 [What is Polymarket?](what-is-polymarket.md)
-- 想立刻开跑？看 [Quick Start](quick-start.md)
-- 想理解整条链路？看 [How CopyOdds Works](how-copyodds-works.md)
+- 不了解预测市场？先读 [什么是 Polymarket？](what-is-polymarket.md)
+- 想立刻开跑？看 [快速开始](quick-start.md)
+- 想理解整条链路？看 [CopyOdds 如何运作](how-copyodds-works.md)

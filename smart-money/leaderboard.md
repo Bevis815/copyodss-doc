@@ -1,4 +1,4 @@
-# Smart Money Leaderboard
+# 聪明钱排行榜
 
 「聪明钱」排行榜帮助你发现适合跟单的 Polymarket 交易员。入口：**Smart money** → `/smart-money`（App 首页默认跳到这里）。
 

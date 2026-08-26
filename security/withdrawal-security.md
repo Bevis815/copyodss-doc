@@ -1,4 +1,4 @@
-# Withdrawal Security
+# 提现安全
 
 提现会把资金转到外部地址，因此每次提现都需要 **step-up（二次验证）**。当前仅支持 **Authenticator（TOTP）**。
 
@@ -42,5 +42,5 @@
 
 - 不要向自称客服的人提供 Authenticator 验证码
 - 不要把提现地址改成「对方提供的中间地址」
-- 官方邮件域名相关提示见 [Anti-Phishing](anti-phishing.md)
+- 官方邮件域名相关提示见 [防钓鱼](anti-phishing.md)
 - 大额前提：小额试提 → 确认到账 → 再提大额

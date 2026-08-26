@@ -1,4 +1,4 @@
-# How Copy Trading Works
+# 跟单如何运作
 
 跟单开启后，CopyOdds 会在你关注的交易员成交时，按规则在你的交易账户里**尝试**下单。
 

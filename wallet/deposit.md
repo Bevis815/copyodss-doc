@@ -1,4 +1,4 @@
-# Deposit
+# 充值
 
 向 CopyOdds **交易账户**充入 USDC / USDT，用于跟单本金。入口：**Wallets → Deposit** → `/wallets/deposit`。
 
@@ -54,5 +54,5 @@
 
 ## 充值后还要做什么？
 
-- 若要开启跟单：还需 **购买平台 Gas**（见 [GAS](gas.md)）
+- 若要开启跟单：还需 **购买平台 Gas**（见 [平台 Gas](gas.md)）
 - 跟单买入需要可用 USDC（建议至少约 $1）

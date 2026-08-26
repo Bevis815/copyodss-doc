@@ -1,4 +1,4 @@
-# What is Polymarket?
+# 什么是 Polymarket？
 
 [Polymarket](https://polymarket.com) 是全球知名的**预测市场**平台：用户对真实世界事件（选举、体育、加密、经济数据等）的结果买卖份额，价格反映市场对该结果发生概率的看法。
 

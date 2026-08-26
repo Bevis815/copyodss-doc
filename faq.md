@@ -1,4 +1,4 @@
-# FAQ
+# 常见问题
 
 遇到问题时，先对照本节。仍无法解决时，请准备：注册邮箱、操作时间、错误截图、交易哈希或交易记录编号。
 
@@ -36,7 +36,7 @@
 
 ### Polygon 和 BSC 地址一样吗？
 
-**不一样。** 切勿混用。详见 [Supported Networks](wallet/supported-networks.md)。
+**不一样。** 切勿混用。详见 [支持的网络](wallet/supported-networks.md)。
 
 ---
 
@@ -96,7 +96,7 @@
 
 ### 官方会要我提供助记词吗？
 
-**不会。** 详见 [Anti-Phishing](security/anti-phishing.md)。
+**不会。** 详见 [防钓鱼](security/anti-phishing.md)。
 
 ---
 
