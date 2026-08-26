@@ -2,17 +2,45 @@
 
 * [CopyOdds 使用文档](README.md)
 
-## 入门指南
+## 🚀 Getting Started
 
-* [注册与登录](guide/01-register-login.md)
-* [钱包与资金](guide/02-wallet.md)
+* [What is CopyOdds?](getting-started/what-is-copyodds.md)
+* [What is Polymarket?](getting-started/what-is-polymarket.md)
+* [Quick Start](getting-started/quick-start.md)
+* [How CopyOdds Works](getting-started/how-copyodds-works.md)
 
-## 跟单功能
+## 🧠 Smart Money
 
-* [开始跟单](guide/03-follow-trader.md)
-* [排行榜说明](guide/04-ranking.md)
-* [订单与记录](guide/05-order.md)
+* [Smart Money Leaderboard](smart-money/leaderboard.md)
+* [How to Choose a Trader](smart-money/how-to-choose.md)
+* [Understanding Trader Metrics](smart-money/trader-metrics.md)
+* [Trader Profile](smart-money/trader-profile.md)
 
-## 帮助
+## 📋 Copy Trading
 
-* [常见问题](guide/06-faq.md)
+* [How Copy Trading Works](copy-trading/how-it-works.md)
+* [How to Follow a Trader](copy-trading/how-to-follow.md)
+* [Copy Trading Settings](copy-trading/settings.md)
+* [Managing Copy Traders](copy-trading/managing.md)
+
+## 💰 Wallet
+
+* [Deposit](wallet/deposit.md)
+* [GAS](wallet/gas.md)
+* [Supported Networks](wallet/supported-networks.md)
+* [Withdraw](wallet/withdraw.md)
+
+## 🔐 Security
+
+* [Wallet Security](security/wallet-security.md)
+* [2FA](security/2fa.md)
+* [Withdrawal Security](security/withdrawal-security.md)
+* [Anti-Phishing](security/anti-phishing.md)
+
+## ❓ FAQ
+
+* [FAQ](faq.md)
+
+---
+
+* [截图准备清单](SCREENSHOTS.md)
