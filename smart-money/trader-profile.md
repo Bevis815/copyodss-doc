@@ -11,8 +11,6 @@
 
 ![交易员详情](../.gitbook/assets/trader_profile_doc.png)
 
-_建议截图：详情页上部 — 评分卡 + Follow 按钮 + 核心指标_
-
 ***
 
 ## 页面结构（常见模块）

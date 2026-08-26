@@ -34,31 +34,8 @@ CopyOdds 是基于 [Polymarket](https://polymarket.com) 的**聪明钱分析 + �
 ## 文档说明
 
 - 左侧目录按产品模块划分，建议按 **Getting Started → Wallet → Smart Money → Copy Trading** 阅读。
-- 文中 `![...]` 处为建议截图占位；截图清单见文末「需要准备的截图」。
 - 本文档仅作产品操作说明，**不构成投资建议**。
 
 ## 联系支持
 
 请准备：注册邮箱、操作时间、错误截图，以及「交易记录」中的相关编号 / 状态。
-
----
-
-## 需要准备的截图（总览）
-
-按优先级准备即可；文件建议放到 `.gitbook/assets/`，命名示例见各页。
-
-| 优先级 | 截图 | 用于页面 |
-|--------|------|----------|
-| P0 | 登录页（邮箱 + Passkey / Telegram） | Quick Start |
-| P0 | 充值页：网络选择（Polygon / BSC）+ 地址 / 二维码 | Deposit |
-| P0 | Gas 商城：套餐列表 + 余额 | GAS |
-| P0 | 聪明钱排行榜（卡片列表 + 筛选） | Leaderboard |
-| P0 | 跟单向导（金额 / 比例 + 滑点） | How to Follow / Settings |
-| P0 | 我的跟单列表（状态 + 操作菜单） | Managing |
-| P1 | 交易员详情 / 评分卡 | Trader Profile |
-| P1 | 提现页 + 二次验证弹窗 | Withdraw / Withdrawal Security |
-| P1 | 交易记录 / 持仓 | How Copy Trading Works / FAQ |
-| P1 | 设置 → 安全（Authenticator / Passkey / 设备） | 2FA |
-| P2 | 动态页（Copy activity） | Managing |
-| P2 | 资产安全保障页 | Wallet Security |
-| P2 | 「校验充值地址」成功提示 | Anti-Phishing |

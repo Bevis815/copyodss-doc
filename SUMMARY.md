@@ -40,7 +40,3 @@
 ## ❓ FAQ
 
 * [FAQ](faq.md)
-
----
-
-* [截图准备清单](SCREENSHOTS.md)

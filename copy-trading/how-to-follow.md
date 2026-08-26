@@ -4,8 +4,6 @@
 
 ![跟单向导](../.gitbook/assets/follow_doc.png)
 
-_建议截图：跟单向导完整步骤（选地址 → 金额 → 高级设置）_
-
 ***
 
 ## 开启前检查清单
@@ -39,7 +37,7 @@ _建议截图：跟单向导完整步骤（选地址 → 金额 → 高级设置
 4. 设置 **Slippage tolerance（滑点）** — 界面为百分比；默认常见为 **30%**
 5. 可选打开 **Advanced settings**：
    - **Direction**：Both / Buy only / Sell only
-   - **Max open copy buys（最多跟买笔数）**：1–10，默认 **1**（不加仓）
+   - **Max open copy buys（最多跟买笔数）**：默认 **1**（不加仓）；调到最大为 **All（不限制）**
 6. 保存（**Copy trade / Save**）
 7. 到 **My copies** 确认状态为 **Following**
 

@@ -17,8 +17,6 @@
 
 ![校验充值地址](../.gitbook/assets/verify_deposit_doc.png)
 
-_建议截图：「校验充值地址」成功后的指引（Telegram / 邮箱）_
-
 ***
 
 ## CopyOdds 永远不会

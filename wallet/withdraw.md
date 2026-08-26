@@ -4,11 +4,7 @@
 
 ![提现页](../.gitbook/assets/usdc2_doc.png)
 
-_建议截图：提现表单 — 网络提示、最大可提、地址与金额_
-
 ![提现二次验证](../.gitbook/assets/withdraw_stepup_doc.png)
-
-_建议截图：二次验证弹窗（Authenticator / Passkey / 邮箱）_
 
 ***
 
@@ -45,13 +41,13 @@ _建议截图：二次验证弹窗（Authenticator / Passkey / 邮箱）_
 
 ***
 
-## 提现二次验证顺序
+## 提现二次验证
 
-系统按可用性优先：
+每次提现需使用 **Authenticator（TOTP）** 动态验证码确认。
 
-1. **Authenticator（TOTP）** — 推荐
-2. 否则 **Passkey**
-3. 否则 **邮箱验证码**（提现专用码，不是登录码）
+若尚未绑定 Authenticator，系统会引导你前往设置开启；**未开启无法提现**。
+
+Passkey、邮箱验证码仅用于登录等场景，**不能**用于提现确认。
 
 详见 [Withdrawal Security](../security/withdrawal-security.md)、[2FA](../security/2fa.md)。
 

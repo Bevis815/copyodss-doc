@@ -1,10 +1,8 @@
 # 2FA
 
-CopyOdds 登录默认是**邮箱验证码**（无传统密码）。建议再开启下面的第二因素，提升登录与提现安全。
+CopyOdds 登录默认是**邮箱验证码**（无传统密码）。建议开启 Authenticator 与 Passkey，分别加强提现与登录安全。
 
 ![设置安全](../.gitbook/assets/settings_security_doc.png)
-
-_建议截图：Settings → Security — Authenticator、Passkeys、Devices、提现二次验证说明_
 
 ***
 
@@ -12,9 +10,9 @@ _建议截图：Settings → Security — Authenticator、Passkeys、Devices、�
 
 | 方式 | 用途 |
 |------|------|
-| **邮箱 OTP** | 登录、绑定验证、提现兜底 |
-| **Authenticator（TOTP）** | 推荐用于提现确认；Google / Microsoft Authenticator、1Password 等 |
-| **Passkey** | 面容 / 指纹 / 屏幕锁；可用于登录与提现确认 |
+| **邮箱 OTP** | 登录、绑定验证 |
+| **Authenticator（TOTP）** | **提现二次验证（唯一方式）**；也用于账户安全加固 |
+| **Passkey** | 面容 / 指纹 / 屏幕锁，用于**登录**快捷验证 |
 | **Telegram** | 可选登录 / 绑定方式（以设置页为准） |
 | **设备管理** | 查看并移除设备；新设备可能影响提现 |
 
@@ -23,8 +21,8 @@ _建议截图：Settings → Security — Authenticator、Passkeys、Devices、�
 ## 建议开启顺序
 
 1. 绑定并验证邮箱
-2. 开启 **Authenticator**
-3. 在常用设备添加 **Passkey**
+2. **开启 Authenticator（提现前必须）**
+3. 在常用设备添加 **Passkey**（方便登录）
 4. 熟悉 **Devices** 列表，不认识的设备及时移除
 
 ***
@@ -35,7 +33,7 @@ _建议截图：Settings → Security — Authenticator、Passkeys、Devices、�
 2. 按指引用 Authenticator App 扫码 / 录入密钥
 3. 输入 6 位动态码完成开启
 
-开启后，提现会**优先**要求 Authenticator 验证码。
+**未绑定 Authenticator 无法提现。** 提现时只需输入 App 中的 6 位动态码。
 
 ***
 
@@ -44,9 +42,8 @@ _建议截图：Settings → Security — Authenticator、Passkeys、Devices、�
 1. 在支持的浏览器 / 系统中打开设置
 2. 添加 Passkey，按系统提示完成生物识别或屏幕锁
 3. 登录页可选择 Passkey 快速登录
-4. 未开 Authenticator 时，提现可能优先使用 Passkey
 
-注意：不同浏览器、WebView、系统版本支持程度不同；失败时可回退邮箱验证码。
+注意：Passkey **不能**替代 Authenticator 做提现确认。不同浏览器、WebView、系统版本支持程度不同；登录失败时可回退邮箱验证码。
 
 ***
 
@@ -63,7 +60,7 @@ _建议截图：Settings → Security — Authenticator、Passkeys、Devices、�
 若仍能登录邮箱：
 
 1. 使用邮箱验证码登录
-2. 在设置中重新绑定 Authenticator / Passkey
+2. 在设置中重新绑定 Authenticator（以及需要的 Passkey）
 3. 检查设备列表并移除丢失设备
 
 若邮箱也无法访问：联系支持并准备身份核验材料（以客服流程为准）。

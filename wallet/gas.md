@@ -8,8 +8,6 @@
 
 ![Gas 商城](../.gitbook/assets/store_doc.png)
 
-_建议截图：Gas 余额、扣费说明、套餐卡片与购买确认_
-
 ***
 
 ## 为什么需要 Gas？

@@ -19,7 +19,6 @@
 
 | 项 | 说明 |
 |----|------|
-| Chain ID | 137 |
 | 充值 | 支持；展示的是托管钱包地址（Custodial address） |
 | 资产 | USDC、USDT |
 | 提现 | **唯一**提现网络；提 USDC 到可接收 Polygon USDC 的地址 |
@@ -32,7 +31,6 @@
 
 | 项 | 说明 |
 |----|------|
-| Chain ID | 56 |
 | 充值 | 支持（当桥接 / 产品网络启用时） |
 | 资产 | USDC、USDT |
 | 地址 | **Bridge address（桥接地址）**，与 Polygon 地址不同 |

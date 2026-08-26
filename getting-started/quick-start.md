@@ -4,8 +4,6 @@
 
 ![登录页](../.gitbook/assets/login_doc.png)
 
-_建议截图：登录页（邮箱验证码 + Passkey / Telegram 入口）_
-
 ***
 
 ## 1. 登录或创建账户
@@ -34,8 +32,6 @@ _建议截图：登录页（邮箱验证码 + Passkey / Telegram 入口）_
 
 ![充值页](../.gitbook/assets/usdc1_doc.png)
 
-_建议截图：充值页 — 已选网络、资产、二维码与「校验充值地址」_
-
 详见 [Deposit](../wallet/deposit.md)、[Supported Networks](../wallet/supported-networks.md)。
 
 ***
@@ -48,8 +44,6 @@ _建议截图：充值页 — 已选网络、资产、二维码与「校验充�
 4. Gas 即时到账（不可提现）
 
 ![Gas 商城](../.gitbook/assets/store_doc.png)
-
-_建议截图：Gas 商城套餐与扣费说明_
 
 费率简述：每笔跟单成交按名义金额约 **0.5%** 扣 Gas；**1 USDC ≈ 100 Gas**。详见 [GAS](../wallet/gas.md)。
 
@@ -65,11 +59,7 @@ _建议截图：Gas 商城套餐与扣费说明_
 
 ![聪明钱 + 跟单](../.gitbook/assets/smarket_doc.png)
 
-_建议截图：聪明钱列表 + Follow 按钮_
-
 ![跟单设置](../.gitbook/assets/follow_doc.png)
-
-_建议截图：跟单向导 — 金额与滑点步骤_
 
 ***
 

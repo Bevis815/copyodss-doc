@@ -23,7 +23,7 @@
 | 文件名 | 拍什么 | 要点 |
 |--------|--------|------|
 | `usdc2_doc.png` | 提现页 | Polygon-only 提示、最大可提、地址与金额表单 |
-| `withdraw_stepup_doc.png` | 提现二次验证弹窗 | 能看出 Authenticator / Passkey / 邮箱选项 |
+| `withdraw_stepup_doc.png` | 提现二次验证弹窗 | Authenticator 6 位动态码输入（仅 TOTP） |
 | `trader_profile_doc.png` | 交易员详情 | 评分卡、核心指标、Follow |
 | `settings_security_doc.png` | 设置 → 安全 | Authenticator、Passkeys、Devices、提现二次验证 |
 | `feed_doc.png` | 动态页 | 带单公开成交 + Copied / Skipped 等状态 |

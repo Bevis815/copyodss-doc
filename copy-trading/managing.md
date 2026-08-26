@@ -4,8 +4,6 @@
 
 ![我的跟单](../.gitbook/assets/my_copies_doc.png)
 
-_建议截图：我的跟单列表 — 汇总盈亏、状态徽章、单条操作菜单_
-
 ***
 
 ## 页面顶部汇总（常见）
@@ -69,7 +67,5 @@ _建议截图：我的跟单列表 — 汇总盈亏、状态徽章、单条操�
 | Daily P&L | `/executions/daily-pnl` | 每日已实现盈亏 |
 
 ![动态页](../.gitbook/assets/feed_doc.png)
-
-_建议截图：动态页 — 状态：Copying / Copied / Failed / Skipped_
 
 动态上的状态标签用于理解「这笔公开成交有没有尝试跟」，**最终以交易记录为准**。

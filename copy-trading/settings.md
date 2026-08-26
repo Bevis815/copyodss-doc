@@ -29,7 +29,7 @@
 | **Direction · Both sides** | 买和卖都跟 |
 | **Direction · Buy only** | 只跟买 |
 | **Direction · Sell only** | 只跟卖 |
-| **Max open copy buys** | 同一规则下最多同时「跟买」相关笔数；**默认 1 = 不加仓**；最高通常 10 |
+| **Max open copy buys** | 同一规则下最多同时「跟买」相关笔数；**默认 1 = 不加仓**；滑到最大显示 **All = 不限制** |
 
 ### 为什么默认不加仓？
 
