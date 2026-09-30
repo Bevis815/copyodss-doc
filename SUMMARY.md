@@ -21,7 +21,6 @@
 * [如何选择交易员](smart-money/how-to-choose.md)
 * [读懂交易员指标](smart-money/trader-metrics.md)
 * [交易员详情](smart-money/trader-profile.md)
-* [跟单回测（先试再买）](smart-money/backtest.md)
 
 ## 📋 跟单
 

@@ -63,6 +63,5 @@
 
 ## 挑完之后
 
-- 想先看看这个地址值不值得跟：跑一次 [跟单回测](backtest.md)
 - 不想动真钱：开 [模拟跟单](../copy-trading/simulation.md)
 - 确认要跟：[如何跟单交易员](../copy-trading/how-to-follow.md)
