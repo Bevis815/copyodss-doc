@@ -36,7 +36,7 @@
 
 ## 💰 钱包
 
-* [开通交易账户与授权](wallet/trading-account.md)
+* [交易账户与钱包页状态](wallet/trading-account.md)
 * [充值](wallet/deposit.md)
 * [平台 Gas](wallet/gas.md)
 * [支持的网络](wallet/supported-networks.md)

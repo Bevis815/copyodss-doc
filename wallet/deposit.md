@@ -6,10 +6,6 @@
 
 ***
 
-> **充值前先完成**：开通交易账户 + 授权 Agent + 确认「Polymarket 已就绪」，详见 [开通交易账户与授权](trading-account.md)。
-
-***
-
 ## 四步充值
 
 1. **Pick network（选网络）** — Polygon (PoS) 或 BSC，与交易所提现网络一致  

@@ -8,10 +8,9 @@
 
 ## 验证方式
 
-- **优先：Authenticator 动态验证码**（Google / Microsoft Authenticator、1Password 等）
-- **其次：Passkey**（面容 / 指纹 / 屏幕锁），在未开启 Authenticator 时用于提现确认
-- **最后：邮箱验证**，前两者都没有时的兜底方式
-- 未绑定任何验证方式时，提现流程会引导你先前往设置开启
+- **唯一方式：Authenticator 动态验证码**（Google / Microsoft Authenticator、1Password 等）
+- 未绑定 Authenticator 时，提现流程会要求先前往设置开启
+- **Passkey、邮箱验证码不能用于提现**（仍可用于登录等）
 
 可在设置中查看「提现二次验证」说明。
 
@@ -21,7 +20,7 @@
 
 1. 确认已绑定 Authenticator
 2. 在提现页填好 Polygon 地址与金额并核对
-3. 进入二次验证弹窗，按页面提示完成验证（动态码 / Passkey / 邮箱）
+3. 进入二次验证弹窗，输入 6 位动态码
 4. 验证通过后再提交提现
 
 验证码错误或过期时，重新输入当前码即可。

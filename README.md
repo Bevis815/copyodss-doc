@@ -7,10 +7,9 @@ CopyOdds 是基于 [Polymarket](https://polymarket.com) 的**聪明钱分析 + �
 ## 四步上手
 
 1. **登录 / 注册** — 邮箱验证码、Passkey 或 Telegram
-2. **开通交易账户 + 授权 Agent** — 签名一次，之后才能自动下单
-3. **充值** — 向托管地址转入 Polygon 或 BSC 上的 USDC / USDT
-4. **购买平台 Gas** — 支付自动跟单服务费点数（不是链上 MATIC）
-5. **跟单** — 在「排行榜」或「聪明钱」挑交易员 → 点 **Follow（跟单）** → 选跟单模式（默认「比例」）→ 保存规则
+2. **充值** — 向托管地址转入 Polygon 或 BSC 上的 USDC / USDT
+3. **购买平台 Gas** — 支付自动跟单服务费点数（不是链上 MATIC）
+4. **跟单** — 在「排行榜」或「聪明钱」挑交易员 → 点 **Follow（跟单）** → 选跟单模式（默认「比例」）→ 保存规则
 
 完全不懂从哪开始？先看 [界面导航一览](getting-started/app-tour.md)。
 
@@ -20,7 +19,7 @@ CopyOdds 是基于 [Polymarket](https://polymarket.com) 的**聪明钱分析 + �
 |------|------|
 | 平台 Gas | **大于 0**（否则无法开启跟单；Gas 用尽后买单会跳过） |
 | USDC 余额 | 建议至少约 **$1**，用于实际买入 |
-| 交易账户 | 需手动开通并完成 Agent 授权，否则无法跟单 |
+| 交易账户 | 登录后通常自动开通 |
 
 ## 主要入口（与 App 导航一致）
 
@@ -35,7 +34,6 @@ CopyOdds 是基于 [Polymarket](https://polymarket.com) 的**聪明钱分析 + �
 | 交易记录 / 盈亏 | **Executions** → `/executions/records`、`/executions/daily-pnl` |
 | 平台 Gas 商城 | **Store** → `/store` |
 | 邀请返佣 | **Affiliation** → `/affiliate` |
-| 开通交易账户 / 授权 | **交易账户（Wallets）** → `/wallets` |
 | 充值 / 提现 | **Deposit / Withdraw** → `/wallets/deposit`、`/wallets/withdraw` |
 | 个人中心（资产总览） | **Profile** → `/profile` |
 | 资金流水 | **Transaction history** → `/wallets/ledger` |
