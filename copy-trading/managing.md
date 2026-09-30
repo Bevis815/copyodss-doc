@@ -69,3 +69,11 @@
 ![动态页](../.gitbook/assets/feed_doc.png)
 
 动态上的状态标签用于理解「这笔公开成交有没有尝试跟」，**最终以交易记录为准**。
+
+***
+
+## 想深入了解
+
+- 每笔为什么没跟上：[跟单动态](copy-activity.md)
+- 持仓与结算：[我的持仓与交易记录](positions-and-records.md)
+- 不想真花钱先试：[模拟跟单](simulation.md)

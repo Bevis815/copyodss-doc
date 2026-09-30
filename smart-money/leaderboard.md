@@ -1,6 +1,6 @@
-# 聪明钱排行榜
+# 聪明钱排行榜（按交易员画像筛选）
 
-「聪明钱」排行榜帮助你发现适合跟单的 Polymarket 交易员。入口：**Smart money** → `/smart-money`（App 首页默认跳到这里）。
+「聪明钱」排行榜帮助你发现适合跟单的 Polymarket 交易员。入口：**Smart money** → `/smart-money`（App 首页现在是[跟单池每日盈利榜](copy-pool-board.md)，聪明钱在菜单里进入）。
 
 ![聪明钱排行榜](../.gitbook/assets/smarket_doc.png)
 
@@ -74,3 +74,11 @@
 2. 打开详情看评分因子、回撤与风险提示
 3. 小金额 Follow 测试，再逐步调整
 4. 分享交易员时使用详情链接格式：`https://app.copyodds.io/@0x地址`（中文界面可带 `/zh`）
+
+***
+
+## 相关页面
+
+- 首页 **排行榜**（跟单池每日盈利）：[跟单池每日盈利榜](copy-pool-board.md)
+- 选中交易员后先试再买：[跟单回测](backtest.md)
+- 挑人的思路：[如何选择交易员](how-to-choose.md)
