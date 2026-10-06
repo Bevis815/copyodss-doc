@@ -58,3 +58,10 @@ On the profile page, focus on:
 - Their style doesn't match your capital size (trades too large or too fragmented)
 
 Once you've picked a trader, see [How to Copy a Trader](../copy-trading/how-to-follow.md).
+
+***
+
+## After choosing
+
+- Don't want to use real money yet: try [Simulation copy trading](../copy-trading/simulation.md)
+- Ready to copy: [How to Copy a Trader](../copy-trading/how-to-follow.md)

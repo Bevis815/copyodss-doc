@@ -69,3 +69,11 @@ Close positions yourself in **Positions**, or wait for settlement and redeem.
 ![Copy activity](../.gitbook/assets/feed_doc.png)
 
 Status tags in Copy activity help you understand "whether this public fill was attempted"; **Trade history is the final word**.
+
+***
+
+## Learn more
+
+- Why each trade was or wasn't copied: [Copy Activity](copy-activity.md)
+- Positions and settlement: [My Positions & Trade History](positions-and-records.md)
+- Try it without spending real money: [Simulation Copy Trading](simulation.md)

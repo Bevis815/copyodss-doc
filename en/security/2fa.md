@@ -30,10 +30,24 @@ CopyOdds logs you in with an **email verification code** by default (no traditio
 ## Authenticator (TOTP)
 
 1. Open **Settings → Security**
-2. Follow the guide to scan the QR code / enter the key in your Authenticator app
+2. Follow the guide to scan the QR code with your Authenticator app, or enter the key manually
 3. Enter the 6-digit code to finish enabling it
 
-**You can't withdraw without an Authenticator.** When withdrawing, just enter the 6-digit code from the app.
+If you came here from the withdrawal flow, you'll be **taken back to the wallet page automatically to continue withdrawing** when done.
+
+### Turning off Authenticator
+
+For security, **turning it off also requires a 6-digit code**. If you just want to switch devices, it's easier to re-bind on the new device.
+
+### Common messages
+
+| Message | Cause | What to do |
+|---------|-------|------------|
+| Code is wrong or expired | Typo, or more than 30 seconds passed | Wait for a new code and enter it |
+| Code has already been used | The same code was submitted twice | Wait for the next new code |
+| Binding expired | Too long between scanning and confirming | Start binding again |
+| Too many attempts | Too many wrong entries in a short time | Wait a while and try again |
+| Authenticator already enabled | Binding a second time | No need to do it again |
 
 ***
 
@@ -43,7 +57,7 @@ CopyOdds logs you in with an **email verification code** by default (no traditio
 2. Add a Passkey and complete biometric or screen-lock verification as prompted
 3. On the login page you can choose Passkey for quick login
 
-Note: a Passkey **cannot** replace the Authenticator for confirming withdrawals. Support varies across browsers, WebViews, and OS versions; if login fails, fall back to the email code.
+Note: a Passkey **cannot** be used to confirm withdrawals. Support varies across browsers, WebViews, and OS versions; if login fails, fall back to the email code.
 
 ***
 

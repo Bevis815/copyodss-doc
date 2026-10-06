@@ -14,7 +14,8 @@ Withdraw freely available **USDC** from your trading account to an external wall
 |------|-------------|
 | Network | **Polygon (PoS) only** |
 | Asset | **USDC** |
-| Receiving address | Must be able to receive Polygon USDC; **do not** enter the custodial address from the deposit page |
+| Receiving address | Must be able to receive Polygon USDC; **do not** enter the custodial address from the deposit page, and it can't be **your current deposit address itself** |
+| Destination wallet | Should hold a little **MATIC (POL)**; you'll need it to pay gas when moving this USDC on-chain later |
 | Step-up verification | Required for every withdrawal (see below) |
 
 ***
@@ -43,11 +44,11 @@ Go by the **Max withdrawable** figure on the page, not your total balance.
 
 ## Withdrawal step-up verification
 
-Every withdrawal must be confirmed with an **Authenticator (TOTP)** code.
+Every withdrawal must be confirmed with a 6-digit **Authenticator (TOTP)** code — **currently this is the only supported method**.
 
-If you haven't set up an Authenticator, the system will guide you to enable it in Settings; **you can't withdraw without it**.
+If you haven't set one up, the system will guide you to enable it in Settings; **you can't withdraw without it**.
 
-Passkeys and email codes are only for login and similar scenarios and **cannot** be used to confirm withdrawals.
+**Passkeys and email codes cannot be used to confirm withdrawals** (they're only for login and similar scenarios).
 
 See [Withdrawal Security](../security/withdrawal-security.md) and [Two-Factor Authentication (2FA)](../security/2fa.md).
 
@@ -55,12 +56,14 @@ See [Withdrawal Security](../security/withdrawal-security.md) and [Two-Factor Au
 
 ## Temporarily unable to withdraw?
 
-Possible reasons:
-
-- A withdrawal cooldown triggered by a new-device login or security policy
-- Trading status is restricted
-- Step-up verification failed / expired
-- Address or amount validation failed
+| Message | Meaning | What to do |
+|---------|---------|------------|
+| **Withdrawal channel busy** | Many withdrawal requests today | Wait a few minutes or hours as prompted; **your funds are safe and you don't need to resubmit** |
+| **New device / new network cooldown** | You just switched devices or your IP changed | Try again after the cooldown ends |
+| **Unfilled orders exist** | You still have open orders | Cancel them or wait for them to fill |
+| **Positions still open** | Your custodial address still holds market positions | Close them or wait for settlement |
+| **Previous withdrawal in progress** | Still being confirmed on-chain | Wait for it to finish before sending the next one |
+| **Address is your deposit address** | You can't withdraw back to your deposit address | Use your own receiving address instead |
 
 Check sessions and security settings in **Settings → Devices / Security**. If it still fails, contact support and mention whether you recently switched devices.
 
@@ -71,3 +74,9 @@ Check sessions and security settings in **Settings → Devices / Security**. If 
 - Before your first large withdrawal: test with a small amount first
 - Withdrawals usually can't be undone once submitted — check the address character by character
 - CopyOdds will never DM you to "help with a withdrawal" or ask for your verification codes
+
+***
+
+## Where to see withdrawal records
+
+**Transaction history** → `/wallets/ledger` shows each withdrawal's status and "balance after", with a link to the block explorer. See [Transaction History](ledger.md).

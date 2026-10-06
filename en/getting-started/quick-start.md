@@ -51,10 +51,10 @@ Fees in short: each copy fill costs about **0.5%** of its notional amount in Gas
 
 ## 4. Pick a trader and copy
 
-1. Open **Smart money** → `/smart-money` (the App's default home page)
+1. Open the home page **Leaderboard** or **Smart money** → `/` or `/smart-money`
 2. Use categories, quick filters, or advanced filters to pick a trader
 3. Tap **Follow**, or open the profile first and follow from there
-4. In the wizard, set the copy mode (fixed amount / % of balance), slippage, and advanced options
+4. Choose a **copy mode** (default **Ratio**), slippage, and advanced options
 5. Make sure Gas > 0, then save → manage it in **My copies**
 
 ![Smart money + Follow](../.gitbook/assets/smarket_doc.png)
@@ -79,3 +79,12 @@ Fees in short: each copy fill costs about **0.5%** of its notional amount in Gas
 - Start with a small deposit, buy a little Gas, and test with a small fixed amount for 1–2 days
 - When funds or Gas run low, buys are skipped but the rule usually **does not** pause automatically; after topping up, go to **My copies** and tap **Resume buys**
 - Withdrawals support **Polygon USDC** only — double-check the address before submitting
+
+***
+
+## Not sure who to copy? Two safe approaches
+
+1. **Check the Leaderboard first** (home page) to find accounts with steady recent performance, then verify score and drawdown on the profile page
+2. **Still unsure? Try [Simulation copy trading](../copy-trading/simulation.md) first** — no real money involved
+
+Once you're confident, come back to step 4 on this page to start live copying.

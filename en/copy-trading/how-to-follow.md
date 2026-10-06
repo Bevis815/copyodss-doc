@@ -31,10 +31,13 @@ Any of the following:
 
 1. Confirm the **Leader address** (0x…); bringing it over from the leaderboard avoids typos
 2. Optional: name the rule (Name this copy trade)
-3. Choose a **Copy mode**:
-   - **Fixed amount** — Same target notional per trade (default is often $10, minimum about $1)
-   - **By balance %** — A percentage of **your available USDC** (default is often 5%)
-4. Set **Slippage tolerance** — shown as a percentage; the common default is **30%**
+3. Choose a **Copy mode** — pick one of three:
+   - **Ratio** — **The default mode**; copies a fixed percentage of each of the leader's fills (leader buys $500 at a 10% ratio → you buy $50)
+   - **By balance %** — A percentage of **your available USDC** (1%–100%)
+   - **Fixed amount** — Buys the same amount every time (minimum $1)
+4. Set **Slippage tolerance** — default **15%**, adjustable from 1% to 100%
+
+   > For how the three modes differ, how the ratio is calculated, and where the suggested values come from, see [The Three Copy Modes](copy-modes.md)
 5. Optionally open **Advanced settings**:
    - **Direction**: Both / Buy only / Sell only
    - **Max open copy buys**: default **1** (no adding to positions); the maximum is **All (unlimited)**
@@ -60,3 +63,13 @@ If the amount calculated from the percentage is below the minimum order size, th
 - Changing a rule only affects future copies and doesn't rewrite past fills
 - Stopping / deleting a rule **does not** automatically sell your positions
 - Test with a small amount first, and only scale up after Trade history looks normal
+
+***
+
+## Where to look after copying
+
+| What you want to see | Where to go |
+|----------------------|-------------|
+| What the trader just did, and whether I copied it | [Copy Activity](copy-activity.md) |
+| What I currently hold | [My Positions & Trade History](positions-and-records.md) |
+| Rule status, pause / resume | [Managing Copies](managing.md) |

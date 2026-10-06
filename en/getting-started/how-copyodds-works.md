@@ -35,9 +35,14 @@ When Gas is 0: you **can't create / resume copy rules**. Existing rules usually 
 
 You save one rule per leader address (saving again for the same address overwrites it):
 
-- **Copy mode**: a fixed USDC amount, or a percentage of **your own available USDC** (not proportional to the trader's order size)
+- **Copy mode** (pick one; default **Ratio**):
+  - **Ratio**: each of the leader's fills × your ratio = your order amount
+  - **By balance %**: each trade uses a percentage of your own available USDC
+  - **Fixed amount**: every trade buys the same amount
+  - See [The Three Copy Modes](../copy-trading/copy-modes.md)
 - **Direction**: Both / Buy only / Sell only
-- **Slippage**: no fill if the price moves too far
+- **Slippage**: no fill if the price moves too far (default 15%)
+- **Copy ratio / Size range** (Ratio mode only): controls "how much to copy" and "which order sizes to copy"
 - **Max open copy buys**: default 1 (no adding to positions); can be raised, and the maximum is **All (unlimited)**
 
 After detecting a leader fill, the system tries to place an order using these rules. It **does not guarantee** every trade will be copied.

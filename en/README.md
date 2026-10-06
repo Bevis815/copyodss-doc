@@ -9,7 +9,9 @@ These docs reflect the current App (`app.copyodds.io`) interface and flows. Butt
 1. **Log in / Sign up** — Email code, Passkey, or Telegram
 2. **Deposit** — Send USDC / USDT on Polygon or BSC to your custodial address
 3. **Buy Platform Gas** — Service-fee credits for automated copy trading (not on-chain MATIC)
-4. **Copy** — Pick a trader in **Smart money** → tap **Follow** → save the rule
+4. **Copy** — Pick a trader in **Leaderboard** or **Smart money** → tap **Follow** → choose a copy mode (default: **Ratio**) → save the rule
+
+Not sure where to begin? Start with the [App Tour](getting-started/app-tour.md).
 
 ## Before you start copying
 
@@ -23,19 +25,37 @@ These docs reflect the current App (`app.copyodds.io`) interface and flows. Butt
 
 | Feature | Path / Navigation |
 |---------|-------------------|
-| Smart money leaderboard | **Smart money** → `/smart-money` (this is the home page) |
-| My copies | **My copies** → `/copy-rules` |
-| Trading account / Deposit & withdraw | **Assets / Deposit** → `/wallets/deposit` |
-| Gas Store | **Gas Store** → `/store` |
-| Positions / Trade history | **Positions** / **Trade history** |
-| User guide | **Getting started** → `/help` |
-| Settings & security | **Settings** |
+| Leaderboard (copy pool daily profit) | **Leaderboard** → `/` (home page) |
+| Smart money | **Smart money** → `/smart-money` |
+| My copies | **My copy trading** → `/copy-rules` |
+| Copy activity | **Copy activity** → `/feed` |
+| Simulation copy trading | **Simulation copy trading** → `/copy-trading/simulation` |
+| My positions | **My positions** → `/executions/positions` |
+| Trade history / P&L | **Executions** → `/executions/records`, `/executions/daily-pnl` |
+| Platform Gas store | **Store** → `/store` |
+| Affiliate program | **Affiliation** → `/affiliate` |
+| Deposit / Withdraw | **Deposit / Withdraw** → `/wallets/deposit`, `/wallets/withdraw` |
+| Profile (asset overview) | **Profile** → `/profile` |
+| Transaction history | **Transaction history** → `/wallets/ledger` |
+| Settings & security | **Settings** → `/settings` |
+| Devices & Passkeys | **Settings → Devices** → `/settings/devices` |
+| Mobile download | **Mobile App** → `/mobile-app` |
+| User guide | **User guide** → `/help` |
+
+## Suggested reading order
+
+1. **Getting Started** (what it is → Quick Start → App Tour)
+2. **Leaderboard / Smart Money** (pick traders; check score and drawdown)
+3. **Copy Trading** (how to start, manage, and check copies)
+4. **Wallet** (deposit, Gas, withdraw, transaction history)
+5. **Account & Settings, Security** (keep your account safe)
+6. **Affiliate** (when you want to earn by sharing)
 
 ## About these docs
 
-- The sidebar is organized by product module. We suggest reading **Getting Started → Wallet → Smart Money → Copy Trading**.
 - These docs describe how to use the product only and **do not constitute investment advice**.
+- The interface is updated continuously. If screenshots differ slightly from your version, go by what the App shows.
 
 ## Contact support
 
-Please have ready: your registered email, the time of the action, error screenshots, and the related ID / status from **Trade history**.
+Please have ready: your registered email, the time of the action, error screenshots, and the related ID / status / on-chain hash from **Trade history**.

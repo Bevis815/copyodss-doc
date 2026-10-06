@@ -24,13 +24,15 @@ Each copy fill (buy or sell) deducts service-fee credits based on the fill's not
 
 | Item | Description |
 |------|-------------|
-| Fee | About **0.5%** of the notional amount per copy fill, deducted in Gas |
+| Fee | **Both buys and sells** cost about **0.5%** of the actual fill amount, deducted in Gas |
 | Conversion | About **1 USDC = 100 Gas** |
-| Example | A $100 fill consumes about **50 Gas** |
+| Example | A $100 fill consumes about **50 Gas** (buy and sell are each charged once) |
 | Payment source | Packages are paid from your custodial **available USDC balance** |
 | Withdrawable? | **No** — cannot be withdrawn or transferred |
 
 See the store page for current packages and any bonuses (such as referral tier boosts).
+
+> If you have unfinished orders, open positions, or pending withdrawals, the store may temporarily **not allow buying Gas with your balance** and will prompt you to resolve it on the Wallet page; once resolved, you can buy as usual.
 
 ***
 

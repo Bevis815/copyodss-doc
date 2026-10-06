@@ -1,6 +1,6 @@
-# Smart Money Leaderboard
+# Smart Money Leaderboard (Filter by Trader Profile)
 
-The Smart Money leaderboard helps you find Polymarket traders worth copying. Entry: **Smart money** → `/smart-money` (the App home page goes here by default).
+The Smart Money leaderboard helps you find Polymarket traders worth copying. Entry: **Smart money** → `/smart-money` (the App home page is now the [Copy Pool Daily Profit Board](copy-pool-board.md); open Smart money from the menu).
 
 ![Smart Money leaderboard](../.gitbook/assets/smarket_doc.png)
 
@@ -74,3 +74,10 @@ All, Politics, Sports, Esports, Crypto, Culture, Weather, Economy, Tech, Finance
 2. Open the profile to review score factors, drawdown, and risk notes
 3. Follow with a small amount to test, then adjust gradually
 4. When sharing a trader, use the profile link format: `https://app.copyodds.io/@0xADDRESS` (add `/zh` for the Chinese UI)
+
+***
+
+## Related pages
+
+- Home page **Leaderboard** (copy pool daily profit): [Copy Pool Daily Profit Board](copy-pool-board.md)
+- How to think about picking traders: [How to Choose a Trader](how-to-choose.md)

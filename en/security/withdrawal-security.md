@@ -32,7 +32,9 @@ If the code is wrong or expired, just enter the current code again.
 | Mechanism | Description |
 |-----------|-------------|
 | Max withdrawable | Funds tied up in positions and orders can't be withdrawn |
-| New device / security cooldown | Withdrawals may be temporarily unavailable after a new device or risk-related change |
+| New device / new network cooldown | Withdrawals may be temporarily unavailable after switching devices or an IP change |
+| Withdrawal channel busy | At peak times you may need to wait minutes to hours; your funds are safe |
+| Destination wallet needs MATIC | Keep a little MATIC (POL) in the new address, or you won't be able to move this USDC on-chain afterward |
 | Trading restrictions | If the account's trading is restricted, withdrawals may also be affected |
 | Address check | Funds sent to a wrong external address usually can't be recovered |
 

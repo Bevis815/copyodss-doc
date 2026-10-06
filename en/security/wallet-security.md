@@ -35,7 +35,7 @@ Please note:
 1. Only use the official website / App: **copyodds.io**
 2. **Enable Authenticator** (required for withdrawals; see [Two-Factor Authentication (2FA)](2fa.md))
 3. Optionally add a Passkey for easier login
-4. Manage your logged-in devices and don't trust unknown "support agents"
+4. Regularly review your [logged-in devices](../account/devices-and-passkeys.md) and remove any you don't recognize
 5. Deposit using the address on the page, and check it with **Verify deposit address**
 6. Test your first deposit and withdrawal with small amounts
 
@@ -47,3 +47,10 @@ Please note:
 - Security settings: `/settings`
 - Device management: `/settings/devices`
 - Passkeys: `/settings/passkeys`
+
+***
+
+## Want to check for yourself?
+
+- Fund movements and Gas spending: **Transaction history** → `/wallets/ledger` (see [Transaction History](../wallet/ledger.md))
+- Devices you've logged in on and withdrawal cooldowns: **Settings → Devices** → `/settings/devices` (see [Devices & Passkeys](../account/devices-and-passkeys.md))
