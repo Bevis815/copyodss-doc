@@ -35,7 +35,7 @@ CopyOdds 使用**托管交易账户**模型：你无需自行保管交易私钥�
 1. 只使用官方网站 / App：**copyodds.io**
 2. **开启 Authenticator**（提现必须；见 [双重验证（2FA）](2fa.md)）
 3. 可选添加 Passkey，方便登录
-4. 管理登录设备，不信任陌生「客服」
+4. 定期查看[登录设备](../account/devices-and-passkeys.md)，移除不认识的设备
 5. 充值使用页面地址，并用「校验充值地址」核对
 6. 首次充提先小额测试
 
@@ -47,3 +47,10 @@ CopyOdds 使用**托管交易账户**模型：你无需自行保管交易私钥�
 - 设置安全：`/settings`
 - 设备管理：`/settings/devices`
 - 通行密钥：`/settings/passkeys`
+
+***
+
+## 想自己核对？
+
+- 资金进出与 Gas 消费记录：**交易记录** → `/wallets/ledger`（见 [资金流水](../wallet/ledger.md)）
+- 登录过的设备与提现冷却：**设置 → Devices** → `/settings/devices`（见 [设备管理与 Passkey](../account/devices-and-passkeys.md)）

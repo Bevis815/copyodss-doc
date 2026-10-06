@@ -2,14 +2,16 @@
 
 CopyOdds 是基于 [Polymarket](https://polymarket.com) 的**聪明钱分析 + 自动跟单**平台：发现表现较好的预测市场交易员，用托管交易账户自动镜像其成交。
 
-本文档对应当前 App（`app.copyodds.io`）界面与流程。页面文案以英文界面为主时，文中会同时标注中文导航名。
+本文档对应当前 App（`app.copyodds.io`）界面与流程。页面文案以英文界面为主时，文中会同时标注中文叫法。
 
 ## 四步上手
 
 1. **登录 / 注册** — 邮箱验证码、Passkey 或 Telegram
 2. **充值** — 向托管地址转入 Polygon 或 BSC 上的 USDC / USDT
 3. **购买平台 Gas** — 支付自动跟单服务费点数（不是链上 MATIC）
-4. **跟单** — 在「聪明钱」挑选交易员 → 点 **Follow（跟单）** → 保存规则
+4. **跟单** — 在「排行榜」或「聪明钱」挑交易员 → 点 **Follow（跟单）** → 选跟单模式（默认「比例」）→ 保存规则
+
+完全不懂从哪开始？先看 [界面导航一览](getting-started/app-tour.md)。
 
 ## 开始跟单前请确认
 
@@ -23,19 +25,37 @@ CopyOdds 是基于 [Polymarket](https://polymarket.com) 的**聪明钱分析 + �
 
 | 功能 | 路径 / 导航 |
 |------|-------------|
-| 聪明钱排行榜 | **Smart money** → `/smart-money`（首页即此） |
-| 我的跟单 | **My copies** → `/copy-rules` |
-| 交易账户 / 充值提现 | **Assets / Deposit** → `/wallets/deposit` |
-| Gas 商城 | **Gas Store** → `/store` |
-| 持仓 / 交易记录 | **Positions** / **Trade history** |
-| 用户指南 | **Getting started** → `/help` |
-| 设置与安全 | **Settings** |
+| 排行榜（跟单池每日盈利） | **Leaderboard** → `/`（首页） |
+| 聪明钱 | **Smart money** → `/smart-money` |
+| 我的跟单 | **My copy trading** → `/copy-rules` |
+| 跟单动态 | **Copy activity** → `/feed` |
+| 模拟跟单 | **Simulation copy trading** → `/copy-trading/simulation` |
+| 我的持仓 | **My positions** → `/executions/positions` |
+| 交易记录 / 盈亏 | **Executions** → `/executions/records`、`/executions/daily-pnl` |
+| 平台 Gas 商城 | **Store** → `/store` |
+| 邀请返佣 | **Affiliation** → `/affiliate` |
+| 充值 / 提现 | **Deposit / Withdraw** → `/wallets/deposit`、`/wallets/withdraw` |
+| 个人中心（资产总览） | **Profile** → `/profile` |
+| 资金流水 | **Transaction history** → `/wallets/ledger` |
+| 设置与安全 | **Settings** → `/settings` |
+| 设备与 Passkey | **Settings → Devices** → `/settings/devices` |
+| 手机端下载 | **Mobile App** → `/mobile-app` |
+| 用户指南 | **User guide** → `/help` |
+
+## 建议阅读顺序
+
+1. **入门指南**（是什么 → 快速开始 → 界面导航）
+2. **排行榜 / 聪明钱**（挑人，看评分和回撤）
+3. **跟单**（怎么开、怎么管、怎么检查）
+4. **钱包**（充值、Gas、提现、流水）
+5. **账户与设置、安全**（保护好账户）
+6. **邀请返佣**（想赚钱分享时再看）
 
 ## 文档说明
 
-- 左侧目录按产品模块划分，建议按 **入门指南 → 钱包 → 聪明钱 → 跟单** 阅读。
 - 本文档仅作产品操作说明，**不构成投资建议**。
+- 界面持续更新，若截图与你的版本略有差异，以 App 实际显示为准。
 
 ## 联系支持
 
-请准备：注册邮箱、操作时间、错误截图，以及「交易记录」中的相关编号 / 状态。
+请准备：注册邮箱、操作时间、错误截图，以及「交易记录」中的相关编号 / 状态 / 链上哈希。

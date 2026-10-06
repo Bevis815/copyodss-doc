@@ -58,3 +58,10 @@
 - 风格与你的资金规模不匹配（单笔过大或过碎）
 
 选好人之后，具体操作见 [如何跟单交易员](../copy-trading/how-to-follow.md)。
+
+***
+
+## 挑完之后
+
+- 不想动真钱：开 [模拟跟单](../copy-trading/simulation.md)
+- 确认要跟：[如何跟单交易员](../copy-trading/how-to-follow.md)
