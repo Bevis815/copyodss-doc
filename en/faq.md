@@ -124,7 +124,7 @@ A paused rule can be resumed; a deleted rule must be recreated. Neither one auto
 
 ### Why do withdrawals need step-up verification?
 
-To protect your funds and prevent assets from being moved out directly if a session is hijacked. Verification methods are used in this order: **Authenticator** first if bound; then **Passkey**; and if neither is available, it falls back to **email verification**.
+To protect your funds and prevent assets from being moved out directly if a session is hijacked. Withdrawals currently only accept **Authenticator** codes; if you haven't set one up, enable it in Settings first. Passkeys and email codes cannot be used for withdrawals.
 
 ### Can a Passkey be used to withdraw?
 
